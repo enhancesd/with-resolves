@@ -1,0 +1,30 @@
+{
+  "name": "@enhance/with-resolvers",
+  "version": "0.0.1",
+  "description": "Promise withResolvers polyfill",
+  "main": "src/core/index.js",
+  "scripts": {
+    "dev": "npx tsc src/core/index.ts -w",
+    "test": "nodemon test/index.js"
+  },
+  "keywords": [
+    "with-resolvers",
+    "witResolvers",
+    "Promise.withResolvers",
+    "Promise",
+    "polyfill"
+  ],
+  "author": "meji",
+  "license": "ISC",
+  "publishConfig": {
+    "access": "public"
+  },
+  "repository": {
+    "type": "git",
+    "url": " https://github.com/17722970136/enhance-withResolves.git"
+  },
+  "devDependencies": {
+    "nodemon": "^3.1.0",
+    "typescript": "^5.4.5"
+  }
+}
