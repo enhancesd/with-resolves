@@ -1,6 +1,6 @@
 {
-  "name": "@enhance/with-resolvers",
-  "version": "0.0.1",
+  "name": "@enhances/with-resolvers",
+  "version": "0.0.2",
   "description": "Promise withResolvers polyfill",
   "main": "src/core/index.js",
   "scripts": {

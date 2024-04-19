@@ -3,11 +3,11 @@
 ### use
 ```js
 // main.js
-import '@enhance/with-resolvers';
+import '@enhances/with-resolvers';
 or 
-require('@enhance/with-resolvers');
+require('@enhances/with-resolvers');
 or
-import('@enhance/with-resolvers');
+import('@enhances/with-resolvers');
 
 const {resolve, reject, promise} = Promise.withResolvers();
 
