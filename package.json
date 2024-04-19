@@ -1,6 +1,6 @@
 {
   "name": "@enhances/with-resolvers",
-  "version": "0.0.2",
+  "version": "0.0.4",
   "description": "Promise withResolvers polyfill",
   "main": "src/core/index.js",
   "scripts": {
@@ -19,9 +19,13 @@
   "publishConfig": {
     "access": "public"
   },
+  "files": [
+    "src",
+    "README.md"
+  ],
   "repository": {
     "type": "git",
-    "url": " https://github.com/17722970136/enhance-withResolves.git"
+    "url": "https://github.com/enhancesd/with-resolves.git"
   },
   "devDependencies": {
     "nodemon": "^3.1.0",
