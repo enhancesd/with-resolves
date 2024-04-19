@@ -1,5 +1,5 @@
 'use strict';
-require('../src/core')
+require('../dist')
 
 class Test extends Promise {
 

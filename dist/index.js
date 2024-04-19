@@ -1,6 +1,7 @@
+"use strict";
 // @ts-ignore
 Promise.withResolvers || (Promise.withResolvers = function () {
-    var rs, rj, pm = new this(function (resolve, reject) {
+    var rs, rj, pm = new this((resolve, reject) => {
         rs = resolve;
         rj = reject;
     });

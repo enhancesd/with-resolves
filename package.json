@@ -1,10 +1,10 @@
 {
   "name": "@enhances/with-resolvers",
-  "version": "0.0.4",
+  "version": "0.0.5",
   "description": "Promise withResolvers polyfill",
-  "main": "src/core/index.js",
+  "main": "dist/index.js",
   "scripts": {
-    "dev": "npx tsc src/core/index.ts -w",
+    "dev": "npx tsc -w",
     "test": "nodemon test/index.js"
   },
   "keywords": [
@@ -20,7 +20,7 @@
     "access": "public"
   },
   "files": [
-    "src",
+    "dist",
     "README.md"
   ],
   "repository": {
